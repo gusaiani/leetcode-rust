@@ -6,9 +6,9 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 
 ## Solved Problems
 
-| #   | Problem                                                                | Difficulty | Approach | Time | Space | Status  |
-| --- | ---------------------------------------------------------------------- | ---------- | -------- | ---- | ----- | ------- |
-| 704 | [Binary Search](https://leetcode.com/problems/binary-search/)          | Easy       | —        | —    | —     | Stubbed |
+| #   | Problem                                                       | Difficulty | Approach                       | Time     | Space |
+| --- | ------------------------------------------------------------- | ---------- | ------------------------------ | -------- | ----- |
+| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy       | Half-open interval + `cmp`     | O(log n) | O(1)  |
 
 ## Project structure
 
