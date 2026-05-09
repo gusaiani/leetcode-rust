@@ -7,7 +7,10 @@ fn assert_removed(mut nums: Vec<i32>, val: i32, expected_k: i32, mut expected_re
     let mut head: Vec<i32> = nums.iter().take(k as usize).copied().collect();
     head.sort();
     expected_remaining.sort();
-    assert_eq!(head, expected_remaining, "first k elements (order-insensitive) mismatch");
+    assert_eq!(
+        head, expected_remaining,
+        "first k elements (order-insensitive) mismatch"
+    );
 }
 
 #[test]
