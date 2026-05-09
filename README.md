@@ -8,6 +8,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 
 | #   | Problem                                                       | Difficulty | Approach                       | Time     | Space |
 | --- | ------------------------------------------------------------- | ---------- | ------------------------------ | -------- | ----- |
+| 27  | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy     | Two pointers (write head)      | O(n)     | O(1)  |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy       | Half-open interval + `cmp`     | O(log n) | O(1)  |
 
 ## Project structure
