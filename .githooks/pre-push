@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Pre-push hook: refuse to push if formatting, clippy, or tests fail.
+# Mirrors the CI in .github/workflows/{lint,test}.yml so failures show up
+# locally instead of as red checks on a PR.
+#
+# Enable with: git config core.hooksPath .githooks
+# Bypass once: git push --no-verify
+
+set -e
+
+echo "→ cargo fmt --all -- --check"
+cargo fmt --all -- --check
+
+echo "→ cargo clippy --all-targets --locked -- -D warnings"
+cargo clippy --all-targets --locked -- -D warnings
+
+echo "→ cargo test --all-targets --locked"
+cargo test --all-targets --locked
+
+echo "✓ pre-push checks passed"

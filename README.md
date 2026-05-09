@@ -26,6 +26,16 @@ Requires a Rust toolchain (stable). Install via [rustup](https://rustup.rs/) if 
 cargo build --tests
 ```
 
+### Pre-push hook
+
+A repo-tracked git hook at `.githooks/pre-push` runs the same checks CI runs (`cargo fmt --check`, `cargo clippy -D warnings`, `cargo test`) before each `git push`. Enable it once per clone:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+Bypass for a single push with `git push --no-verify` if you really need to.
+
 ## Scripts
 
 | Command                                            | Description                          |
