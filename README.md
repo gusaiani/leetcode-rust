@@ -13,6 +13,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Easy | Two-pass byte frequency (`[i32; 26]`) | O(n) | O(1) |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | Min-heap of size k (`Reverse`) | O(log k) | O(k) |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy       | Half-open interval + `cmp`     | O(log n) | O(1)  |
+| 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Easy | In-place prefix sum (owned `Vec`) | O(n) | O(1) |
 
 ## Project structure
 
