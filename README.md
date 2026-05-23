@@ -19,6 +19,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Easy | Indexed swap (`0..n/2`, `<[T]>::swap`) | O(n) | O(1) |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | Easy | Iterator chain (row `sum` + `max`) | O(m × n) | O(1) |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Easy | Fixed-size sliding window (rolling sum) | O(n) | O(1) |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | Brian Kernighan (`n &= n - 1`) | O(1) | O(1) |
 
 ## Project structure
 
