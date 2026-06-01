@@ -5,6 +5,7 @@ pub mod binary_search;
 pub mod concatenation_of_array;
 pub mod first_unique_character_in_a_string;
 pub mod fizz_buzz;
+pub mod how_many_numbers_are_smaller_than_the_current_number;
 pub mod jewels_and_stones;
 pub mod kth_largest_element_in_a_stream;
 pub mod maximum_average_subarray_i;

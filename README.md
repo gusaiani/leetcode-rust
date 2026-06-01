@@ -22,6 +22,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | Brian Kernighan (`n &= n - 1`) | O(1) | O(1) |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | Tuple-match on `chars().next()` | O(n + m) | O(n + m) |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Easy | Push loop over borrowed `&Vec` | O(n) | O(n) |
+| 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | Counting sort + prefix sum (`[i32; 101]`) | O(n) | O(1) |
 
 ## Project structure
 
