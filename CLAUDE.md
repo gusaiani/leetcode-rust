@@ -40,7 +40,14 @@ Read `README.md` — the "Solved Problems" table is the source of truth for whic
 
 ## Avoiding duplicates with the JS repo
 
-This repo is a companion to `/Users/gustavosaiani/code/estudo/js/leetcode`. When picking a new challenge, also read that repo's `README.md` "Solved Problems" table and **skip any problem already solved there**. The goal is breadth across both repos, not redundant coverage.
+This repo is a companion to
+
+- `/Users/gustavosaiani/code/estudo/js/leetcode`.
+- `/Users/gustavosaiani/code/estudo/python/leetcode`.
+- `/Users/gustavosaiani/code/estudo/rust/leetcode`.
+- `/Users/gustavosaiani/code/estudo/java/leetcode`.
+
+When picking a new challenge, also read that repo's `README.md` "Solved Problems" table and **skip any problem already solved there**. The goal is breadth across both repos, not redundant coverage.
 
 ---
 
