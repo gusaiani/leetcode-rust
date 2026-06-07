@@ -25,6 +25,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | Counting sort + prefix sum (`[i32; 101]`) | O(n) | O(1) |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy | Stack (`Vec<u8>` push/pop) | O(n) | O(n) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | Parity loop (`% 2`, halve/decrement) | O(log n) | O(1) |
+| 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | Linear scan (consecutive-run grouping) | O(n) | O(n) |
 
 ## Project structure
 
