@@ -26,6 +26,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy | Stack (`Vec<u8>` push/pop) | O(n) | O(n) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | Parity loop (`% 2`, halve/decrement) | O(log n) | O(1) |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | Linear scan (consecutive-run grouping) | O(n) | O(n) |
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | Additive DP (each entry = sum of two above) | O(n²) | O(1) |
 
 ## Project structure
 
@@ -73,12 +74,14 @@ Bypass for a single push with `git push --no-verify` if you really need to.
 
 ## Avoiding duplicates
 
-Before picking a new challenge, check both:
+Before picking a new challenge, read the "Solved Problems" table in **all four sibling repos** — they share one problem space:
 
 - this repo's [Solved Problems](#solved-problems) table
-- the JS repo's table at `/Users/gustavosaiani/code/estudo/js/leetcode/README.md`
+- `/Users/gustavosaiani/code/estudo/js/leetcode/README.md`
+- `/Users/gustavosaiani/code/estudo/python/leetcode/README.md`
+- `/Users/gustavosaiani/code/estudo/java/leetcode/README.md`
 
-Skip anything already in either. The two repos share a problem space.
+Never pick a problem already in **any** of those tables. "Already in" includes close variants and same-family problems, not just exact `#` matches — e.g. if Java has #350 *Intersection of Two Arrays II*, then #349 *Intersection of Two Arrays* is also off-limits. When a candidate shares a name stem, a problem family (the "II"/"III" follow-ups), or essentially the same core task as something already solved, skip it and pick something genuinely new.
 
 ## Code Quality
 

@@ -7,7 +7,7 @@ Steps:
    - `/Users/gustavosaiani/code/estudo/js/leetcode/README.md`
    - `/Users/gustavosaiani/code/estudo/python/leetcode/README.md`
    - `/Users/gustavosaiani/code/estudo/java/leetcode/README.md`
-   Build a combined set of problems and patterns already covered. **Never pick a problem that appears in ANY of these tables.**
+   Build a combined set of problems and patterns already covered. **Never pick a problem that appears in ANY of these tables.** "Appears in" includes close variants and same-family problems, not just exact `#` matches — e.g. if any repo has #350 *Intersection of Two Arrays II*, then #349 *Intersection of Two Arrays* is also off-limits. Skip anything that shares a name stem, a problem family (the "II"/"III" follow-ups), or essentially the same core task as something already solved.
 2. Identify the weakest pattern coverage across the combined set (union of all four repos): BFS, DFS, dynamic programming, sliding window, two pointers, stack, monotonic stack, trie, graph traversal, topological sort, union-find, matrix, bit manipulation, heap, binary search, backtracking, greedy, prefix sum, intervals, linked list, hash map.
 3. Pick a LeetCode problem that:
    - fills the most impactful gap from step 2,
