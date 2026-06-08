@@ -47,7 +47,7 @@ This repo is a companion to
 - `/Users/gustavosaiani/code/estudo/rust/leetcode`.
 - `/Users/gustavosaiani/code/estudo/java/leetcode`.
 
-When picking a new challenge, also read that repo's `README.md` "Solved Problems" table and **skip any problem already solved there**. The goal is breadth across both repos, not redundant coverage.
+When picking a new challenge, read the `README.md` "Solved Problems" table in **all four** of those repos and **skip any problem already solved in any of them**. "Already solved" includes close variants and same-family problems, not just exact `#` matches — e.g. if Java has #350 *Intersection of Two Arrays II*, then #349 *Intersection of Two Arrays* is also off-limits. The goal is breadth across all four repos, not redundant coverage.
 
 ---
 
@@ -65,7 +65,7 @@ Do not give hints about how to solve the problem.
 Use the term "Stub job challenge" as a command to:
 
 1. Pick a LeetCode challenge that maximizes odds of passing a technical interview for a senior engineer role paying US$150–200k/year, remote from Brazil.
-2. Consider which patterns and topics are missing from this repo **and** from the JS repo at `/Users/gustavosaiani/code/estudo/js/leetcode/README.md`. Skip any problem already solved in either repo. Fill the most impactful gap (e.g., BFS, DFS, dynamic programming, sliding window, stack, trie, graph traversal, matrix problems, bit manipulation).
+2. Consider which patterns and topics are missing across **all four** sibling repos (`js`, `python`, `java`, `rust` under `/Users/gustavosaiani/code/estudo/*/leetcode/README.md`). Skip any problem already solved in any of them — including close variants and same-family problems, not just exact `#` matches. Fill the most impactful gap (e.g., BFS, DFS, dynamic programming, sliding window, stack, trie, graph traversal, matrix problems, bit manipulation).
 3. Difficulty mix: 50% easy, 40% medium, 10% hard.
 4. "Stub challenge" from the choice of challenge above.
 5. Explain why the chosen problem is relevant for senior interviews at that salary range, and call out the Rust-specific learning value (ownership, borrowing, lifetimes, iterators, traits) when applicable.
