@@ -27,6 +27,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | Easy | Parity loop (`% 2`, halve/decrement) | O(log n) | O(1) |
 | 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | Easy | Linear scan (consecutive-run grouping) | O(n) | O(n) |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | Additive DP (each entry = sum of two above) | O(n²) | O(1) |
+| 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | Digit peeling (`% 10`, `/= 10`) | O(log n) | O(1) |
 
 ## Project structure
 
