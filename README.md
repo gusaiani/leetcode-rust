@@ -29,6 +29,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | Additive DP (each entry = sum of two above) | O(n²) | O(1) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | Easy | Digit peeling (`% 10`, `/= 10`) | O(log n) | O(1) |
 | 1920 | [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/) | Easy | Iterator `map` with index cast (`nums[v as usize]`) | O(n) | O(n) |
+| 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | Converging two pointers, fill result back-to-front | O(n) | O(n) |
 
 ## Project structure
 
