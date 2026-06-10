@@ -2,6 +2,7 @@
 // See README.md for the running list.
 pub mod add_binary;
 pub mod binary_search;
+pub mod build_array_from_permutation;
 pub mod concatenation_of_array;
 pub mod first_unique_character_in_a_string;
 pub mod fizz_buzz;
