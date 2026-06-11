@@ -8,6 +8,7 @@ pub mod first_unique_character_in_a_string;
 pub mod fizz_buzz;
 pub mod how_many_numbers_are_smaller_than_the_current_number;
 pub mod jewels_and_stones;
+pub mod kids_with_the_greatest_number_of_candies;
 pub mod kth_largest_element_in_a_stream;
 pub mod maximum_average_subarray_i;
 pub mod merge_strings_alternately;
