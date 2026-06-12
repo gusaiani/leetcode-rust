@@ -4,6 +4,7 @@ pub mod add_binary;
 pub mod binary_search;
 pub mod build_array_from_permutation;
 pub mod concatenation_of_array;
+pub mod decompress_run_length_encoded_list;
 pub mod first_unique_character_in_a_string;
 pub mod fizz_buzz;
 pub mod how_many_numbers_are_smaller_than_the_current_number;

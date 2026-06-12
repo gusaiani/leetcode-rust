@@ -32,6 +32,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy | Converging two pointers, fill result back-to-front | O(n) | O(n) |
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) | Easy | Fold a 3-state sign (`cmp` + `match` on `Ordering`), overflow-proof | O(n) | O(1) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | Max-scan then map (`iter().max()` + `map().collect()`) | O(n) | O(n) |
+| 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | Easy | Pairwise scan (`chunks_exact(2)` + `extend(repeat_n(val, freq))`) | O(n) | O(n) |
 
 ## Project structure
 
