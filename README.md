@@ -33,6 +33,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 1822 | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/) | Easy | Fold a 3-state sign (`cmp` + `match` on `Ordering`), overflow-proof | O(n) | O(1) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | Easy | Max-scan then map (`iter().max()` + `map().collect()`) | O(n) | O(n) |
 | 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | Easy | Pairwise scan (`chunks_exact(2)` + `extend(repeat_n(val, freq))`) | O(n) | O(n) |
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | Easy | Horner's method, base-26 over `bytes()` (`result * 26 + (b - b'A' + 1)`) | O(n) | O(1) |
 
 ## Project structure
 
