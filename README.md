@@ -35,6 +35,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | Easy | Pairwise scan (`chunks_exact(2)` + `extend(repeat_n(val, freq))`) | O(n) | O(n) |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | Easy | Horner's method, base-26 over `bytes()` (`result * 26 + (b - b'A' + 1)`) | O(n) | O(1) |
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | Easy | Pre-allocate `n × m` grid, copy `matrix[i][j]` → `result[j][i]` | O(m × n) | O(m × n) |
+| 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | Easy | Cross product vs. fixed reference point 0 (`i64` widening, no division) | O(n) | O(1) |
 
 ## Project structure
 
