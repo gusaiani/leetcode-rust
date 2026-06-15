@@ -37,6 +37,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 867 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) | Easy | Pre-allocate `n × m` grid, copy `matrix[i][j]` → `result[j][i]` | O(m × n) | O(m × n) |
 | 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | Easy | Cross product vs. fixed reference point 0 (`i64` widening, no division) | O(n) | O(1) |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | Easy | Insertion simulation (`zip` + `Vec::insert` with `usize` cast) | O(n²) | O(n) |
+| 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | Easy | Min/max scan + recursive Euclidean GCD (`gcd(b, a % b)`) | O(n) | O(log min) |
 
 ## Project structure
 
