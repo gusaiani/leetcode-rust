@@ -8,6 +8,7 @@ pub mod concatenation_of_array;
 pub mod create_target_array_in_the_given_order;
 pub mod decompress_run_length_encoded_list;
 pub mod excel_sheet_column_number;
+pub mod find_greatest_common_divisor_of_array;
 pub mod first_unique_character_in_a_string;
 pub mod fizz_buzz;
 pub mod how_many_numbers_are_smaller_than_the_current_number;
