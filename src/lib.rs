@@ -5,6 +5,7 @@ pub mod binary_search;
 pub mod build_array_from_permutation;
 pub mod check_if_it_is_a_straight_line;
 pub mod concatenation_of_array;
+pub mod create_target_array_in_the_given_order;
 pub mod decompress_run_length_encoded_list;
 pub mod excel_sheet_column_number;
 pub mod first_unique_character_in_a_string;
