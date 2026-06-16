@@ -38,6 +38,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | Easy | Cross product vs. fixed reference point 0 (`i64` widening, no division) | O(n) | O(1) |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | Easy | Insertion simulation (`zip` + `Vec::insert` with `usize` cast) | O(n²) | O(n) |
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | Easy | Min/max scan + recursive Euclidean GCD (`gcd(b, a % b)`) | O(n) | O(log min) |
+| 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | Easy | Linear scan + integer digit count (`while n >= 10`, `/= 10`) | O(n × d) | O(1) |
 
 ## Project structure
 
