@@ -40,6 +40,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 1979 | [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) | Easy | Min/max scan + recursive Euclidean GCD (`gcd(b, a % b)`) | O(n) | O(log min) |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | Easy | Linear scan + integer digit count (`while n >= 10`, `/= 10`) | O(n × d) | O(1) |
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | Easy | Map each sentence to `split_whitespace().count()`, then `max()` | O(n) | O(1) |
+| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | Easy | Brute-force pair scan (`i < j` nested loops) | O(n²) | O(1) |
 
 ## Project structure
 

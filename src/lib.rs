@@ -20,6 +20,7 @@ pub mod maximum_average_subarray_i;
 pub mod maximum_number_of_words_found_in_sentences;
 pub mod merge_strings_alternately;
 pub mod number_of_1_bits;
+pub mod number_of_good_pairs;
 pub mod number_of_steps_to_reduce_a_number_to_zero;
 pub mod pascals_triangle;
 pub mod remove_all_adjacent_duplicates_in_string;
