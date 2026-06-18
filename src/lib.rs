@@ -28,6 +28,7 @@ pub mod remove_element;
 pub mod reverse_string;
 pub mod richest_customer_wealth;
 pub mod running_sum_of_1d_array;
+pub mod shuffle_the_array;
 pub mod sign_of_the_product_of_an_array;
 pub mod squares_of_a_sorted_array;
 pub mod subtract_product_and_sum_of_digits;
