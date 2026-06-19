@@ -3,6 +3,7 @@
 pub mod add_binary;
 pub mod binary_search;
 pub mod build_array_from_permutation;
+pub mod can_place_flowers;
 pub mod check_if_it_is_a_straight_line;
 pub mod check_if_the_sentence_is_pangram;
 pub mod concatenation_of_array;
