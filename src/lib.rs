@@ -14,6 +14,7 @@ pub mod find_greatest_common_divisor_of_array;
 pub mod find_numbers_with_even_number_of_digits;
 pub mod first_unique_character_in_a_string;
 pub mod fizz_buzz;
+pub mod flipping_an_image;
 pub mod how_many_numbers_are_smaller_than_the_current_number;
 pub mod jewels_and_stones;
 pub mod kids_with_the_greatest_number_of_candies;
