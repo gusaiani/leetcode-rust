@@ -46,6 +46,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | `HashMap` frequency count, then compare value-`HashSet` size to map size | O(n) | O(n) |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | Greedy in-place scan, plant when plot + both neighbors empty (off-the-end = empty) | O(n) | O(1) |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy | Monotonic stack builds value→next-greater `HashMap` over `nums2`, then map `nums1` (`unwrap_or(&-1)`) | O(n + m) | O(n) |
+| 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | Easy | Index-mapped single pass: write inverted bit to mirrored column (`result[i][len - j - 1]`) | O(n²) | O(n²) |
 
 ## Project structure
 
