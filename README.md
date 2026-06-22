@@ -21,6 +21,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Easy | Fixed-size sliding window (rolling sum) | O(n) | O(1) |
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | Brian Kernighan (`n &= n - 1`) | O(1) | O(1) |
 | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | Easy | Tuple-match on `chars().next()` | O(n + m) | O(n + m) |
+| 1773 | [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/) | Easy | `match` rule_key → column index, then `fold` count over rows | O(n) | O(1) |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Easy | Push loop over borrowed `&Vec` | O(n) | O(n) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | Easy | Counting sort + prefix sum (`[i32; 101]`) | O(n) | O(1) |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy | Stack (`Vec<u8>` push/pop) | O(n) | O(n) |
