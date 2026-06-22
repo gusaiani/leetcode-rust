@@ -42,6 +42,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 2114 | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/) | Easy | Map each sentence to `split_whitespace().count()`, then `max()` | O(n) | O(1) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | Easy | Brute-force pair scan (`i < j` nested loops) | O(n²) | O(1) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | Easy | Pre-allocate then push interleaved pairs (`nums[i]`, `nums[i + n]`) | O(n) | O(n) |
+| 1816 | [Truncate Sentence](https://leetcode.com/problems/truncate-sentence/) | Easy | `split_whitespace().take(k)` then `join(" ")` | O(n) | O(n) |
 | 1832 | [Check if the Sentence Is a Pangram](https://leetcode.com/problems/check-if-the-sentence-is-a-pangram/) | Easy | 26-bit bitmask set (`seen \|= 1 << (b - b'a')`), compare to `(1 << 26) - 1` | O(n) | O(1) |
 | 1207 | [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Easy | `HashMap` frequency count, then compare value-`HashSet` size to map size | O(n) | O(n) |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | Greedy in-place scan, plant when plot + both neighbors empty (off-the-end = empty) | O(n) | O(1) |
