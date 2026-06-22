@@ -39,3 +39,4 @@ pub mod subtract_product_and_sum_of_digits;
 pub mod summary_ranges;
 pub mod transpose_matrix;
 pub mod unique_number_of_occurrences;
+pub mod xor_operation;
