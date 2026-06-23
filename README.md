@@ -51,6 +51,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | Easy | `fold` XOR over generated `start + 2*i` values (no allocation) | O(n) | O(1) |
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | Easy | Index-mapped single pass: write inverted bit to mirrored column (`result[i][len - j - 1]`) | O(n²) | O(n²) |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | In-place sort, then collect matching indices (`enumerate` + `push i as i32`) | O(n log n) | O(1) |
+| 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | Easy | `fold` count over words where `word.starts_with(&pref)` | O(n × p) | O(1) |
 
 ## Project structure
 

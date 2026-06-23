@@ -8,6 +8,7 @@ pub mod check_if_it_is_a_straight_line;
 pub mod check_if_the_sentence_is_pangram;
 pub mod concatenation_of_array;
 pub mod count_items_matching_a_rule;
+pub mod counting_words_with_a_given_prefix;
 pub mod create_target_array_in_the_given_order;
 pub mod decompress_run_length_encoded_list;
 pub mod excel_sheet_column_number;
