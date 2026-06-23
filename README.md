@@ -52,6 +52,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | Easy | Index-mapped single pass: write inverted bit to mirrored column (`result[i][len - j - 1]`) | O(n²) | O(n²) |
 | 2089 | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/) | Easy | In-place sort, then collect matching indices (`enumerate` + `push i as i32`) | O(n log n) | O(1) |
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | Easy | `fold` count over words where `word.starts_with(&pref)` | O(n × p) | O(1) |
+| 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | Easy | Reverse each word's `chars()`, `collect` to `Vec<String>`, then `join(" ")` | O(n) | O(n) |
 
 ## Project structure
 
