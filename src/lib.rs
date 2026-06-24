@@ -25,6 +25,7 @@ pub mod kth_largest_element_in_a_stream;
 pub mod maximum_average_subarray_i;
 pub mod maximum_number_of_words_found_in_sentences;
 pub mod merge_strings_alternately;
+pub mod monotonic_array;
 pub mod next_greater_element_i;
 pub mod number_of_1_bits;
 pub mod number_of_good_pairs;
