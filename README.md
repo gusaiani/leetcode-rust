@@ -54,6 +54,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 2185 | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | Easy | `fold` count over words where `word.starts_with(&pref)` | O(n × p) | O(1) |
 | 557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | Easy | Reverse each word's `chars()`, `collect` to `Vec<String>`, then `join(" ")` | O(n) | O(n) |
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/) | Easy | Single pass tracking decided direction, reject contradicting step | O(n) | O(1) |
+| 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | Easy | Staircase walk from top-right: negative cell → count `rows - row` and step left, else step down | O(m + n) | O(1) |
 
 ## Project structure
 
