@@ -13,6 +13,7 @@ pub mod counting_words_with_a_given_prefix;
 pub mod create_target_array_in_the_given_order;
 pub mod decompress_run_length_encoded_list;
 pub mod excel_sheet_column_number;
+pub mod final_value_of_variable_after_performing_operations;
 pub mod find_greatest_common_divisor_of_array;
 pub mod find_numbers_with_even_number_of_digits;
 pub mod find_target_indices_after_sorting_array;
