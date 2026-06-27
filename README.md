@@ -56,6 +56,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/) | Easy | Single pass tracking decided direction, reject contradicting step | O(n) | O(1) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | Easy | Staircase walk from top-right: negative cell → count `rows - row` and step left, else step down | O(m + n) | O(1) |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | Easy | Linear scan, `contains("--")` decides decrement vs. increment | O(n) | O(1) |
+| 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | Easy | Peel digits, sort ascending, pair two smallest as tens places + two largest as units (`d0*10+d2 + d1*10+d3`) | O(1) | O(1) |
 
 ## Project structure
 
