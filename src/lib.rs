@@ -34,6 +34,7 @@ pub mod number_of_1_bits;
 pub mod number_of_good_pairs;
 pub mod number_of_steps_to_reduce_a_number_to_zero;
 pub mod pascals_triangle;
+pub mod power_of_two;
 pub mod remove_all_adjacent_duplicates_in_string;
 pub mod remove_element;
 pub mod reverse_string;
