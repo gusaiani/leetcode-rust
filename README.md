@@ -58,6 +58,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | Easy | Linear scan, `contains("--")` decides decrement vs. increment | O(n) | O(1) |
 | 2160 | [Minimum Sum of Four Digit Number After Splitting Digits](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/) | Easy | Peel digits, sort ascending, pair two smallest as tens places + two largest as units (`d0*10+d2 + d1*10+d3`) | O(1) | O(1) |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | Reject `n <= 0`, then halve while even (`% 2`, `/= 2`); power of two iff loop drains to 1 | O(log n) | O(1) |
+| 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | Easy | Recursive DFS: null node short-circuits to the other subtree, else sum overlapping values and recurse on children (`take()` moves subtrees out of the `RefCell`) | O(min(m, n)) | O(min(m, n)) |
 
 ## Project structure
 
