@@ -41,6 +41,7 @@ pub mod remove_element;
 pub mod reverse_string;
 pub mod reverse_words_in_a_string_iii;
 pub mod richest_customer_wealth;
+pub mod root_equals_sum_of_children;
 pub mod running_sum_of_1d_array;
 pub mod shuffle_the_array;
 pub mod sign_of_the_product_of_an_array;
