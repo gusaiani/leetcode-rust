@@ -60,6 +60,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | Easy | Reject `n <= 0`, then halve while even (`% 2`, `/= 2`); power of two iff loop drains to 1 | O(log n) | O(1) |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | Easy | Recursive DFS: null node short-circuits to the other subtree, else sum overlapping values and recurse on children (`take()` moves subtrees out of the `RefCell`) | O(min(m, n)) | O(min(m, n)) |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | Easy | Single `borrow()` of the root, compare its `val` to the sum of each child peeled via `as_ref().unwrap().borrow().val` | O(1) | O(1) |
+| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | Recursive DFS: `match` returns 0 on `None`, else `borrow()` the node, add `val` when in `[low, high]`, recurse into both children (`.clone()` the child `Rc`s) | O(n) | O(h) |
 
 ## Project structure
 
