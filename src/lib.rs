@@ -27,6 +27,7 @@ pub mod kth_largest_element_in_a_stream;
 pub mod maximum_average_subarray_i;
 pub mod maximum_number_of_words_found_in_sentences;
 pub mod merge_strings_alternately;
+pub mod merge_two_binary_trees;
 pub mod minimum_sum_of_four_digit_number_after_splitting_digits;
 pub mod monotonic_array;
 pub mod next_greater_element_i;
