@@ -62,6 +62,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | Easy | Single `borrow()` of the root, compare its `val` to the sum of each child peeled via `as_ref().unwrap().borrow().val` | O(1) | O(1) |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | Easy | Recursive DFS: `match` returns 0 on `None`, else `borrow()` the node, add `val` when in `[low, high]`, recurse into both children (`.clone()` the child `Rc`s) | O(n) | O(h) |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | Iterative digit-sum (loop `% 10` / `/= 10`, recurse while ≥ 10); plus O(1) digital root (`1 + (num - 1) % 9`, congruence mod 9) | O(log num) | O(1) |
+| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | Single-pass run counter (reset `current` on non-1, track `max.max(current)`) | O(n) | O(1) |
 
 ## Project structure
 
