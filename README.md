@@ -64,6 +64,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | Iterative digit-sum (loop `% 10` / `/= 10`, recurse while ≥ 10); plus O(1) digital root (`1 + (num - 1) % 9`, congruence mod 9) | O(log num) | O(1) |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Easy | Single-pass run counter (reset `current` on non-1, track `max.max(current)`) | O(n) | O(1) |
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | Easy | In-place ASCII lowercasing on the owned buffer (`into_bytes` → `make_ascii_lowercase`, no realloc, autovectorized) | O(n) | O(1) |
+| 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | Easy | Translate each word to Morse via a `[&str; 26]` table indexed by `(byte - b'a')`, dedup transformations in a `HashSet<String>`, return its size | O(S) | O(S) |
 
 ## Project structure
 
