@@ -51,6 +51,7 @@ pub mod sign_of_the_product_of_an_array;
 pub mod squares_of_a_sorted_array;
 pub mod subtract_product_and_sum_of_digits;
 pub mod summary_ranges;
+pub mod to_lower_case;
 pub mod transpose_matrix;
 pub mod truncate_sentence;
 pub mod unique_number_of_occurrences;
