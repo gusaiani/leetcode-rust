@@ -54,5 +54,6 @@ pub mod summary_ranges;
 pub mod to_lower_case;
 pub mod transpose_matrix;
 pub mod truncate_sentence;
+pub mod unique_morse_code_words;
 pub mod unique_number_of_occurrences;
 pub mod xor_operation;
