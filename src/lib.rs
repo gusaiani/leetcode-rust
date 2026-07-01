@@ -7,6 +7,7 @@ pub mod build_array_from_permutation;
 pub mod can_place_flowers;
 pub mod check_if_it_is_a_straight_line;
 pub mod check_if_the_sentence_is_pangram;
+pub mod check_if_two_string_arrays_are_equivalent;
 pub mod concatenation_of_array;
 pub mod count_items_matching_a_rule;
 pub mod count_negative_numbers_in_a_sorted_matrix;

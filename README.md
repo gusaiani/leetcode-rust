@@ -66,6 +66,7 @@ Companion to the JavaScript repo at `../../js/leetcode`. Problems are not duplic
 | 709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | Easy | In-place ASCII lowercasing on the owned buffer (`into_bytes` → `make_ascii_lowercase`, no realloc, autovectorized) | O(n) | O(1) |
 | 804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | Easy | Translate each word to Morse via a `[&str; 26]` table indexed by `(byte - b'a')`, dedup transformations in a `HashSet<String>`, return its size | O(S) | O(S) |
 | 2652 | [Sum Multiples](https://leetcode.com/problems/sum-multiples/) | Easy | Linear scan over `3..=n`, single `\|\|` divisibility test adds each multiple of 3/5/7 once (no double-count on overlaps) | O(n) | O(1) |
+| 1662 | [Check If Two String Arrays Are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/) | Easy | Compare two lazy char streams (`iter().flat_map(\|s\| s.chars())`) with `Iterator::eq` — no concatenation allocated, short-circuits on first mismatch | O(n) | O(1) |
 
 ## Project structure
 
