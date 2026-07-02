@@ -2,6 +2,7 @@
 // See README.md for the running list.
 pub mod add_binary;
 pub mod add_digits;
+pub mod balanced_binary_tree;
 pub mod binary_search;
 pub mod build_array_from_permutation;
 pub mod can_place_flowers;
